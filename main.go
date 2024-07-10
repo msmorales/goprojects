@@ -2,9 +2,9 @@ package main
 
 import (
 	//"fmt"
-	"fmt"
+	//"fmt"
 
-	"github.com/mmorales/goprojects/ejercicios"
+	"github.com/mmorales/goprojects/teclado"
 	//"runtime"
 	//"github.com/mmorales/goprojects/variables"
 )
@@ -31,5 +31,7 @@ func main() {
 
 	}*/
 
-	fmt.Println(ejercicios.Ejercicio1("101"))
+	//fmt.Println(ejercicios.Ejercicio1("a"))
+	teclado.IngresoNumeros()
+
 }
