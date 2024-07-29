@@ -3,10 +3,10 @@ package iteraciones
 import "fmt"
 
 func Iterar() {
-	i := 0
-	for i < 10 {
+
+	for i := 5; i <= 100; i += 5 {
 		fmt.Println(i)
-		i++
+
 	}
 
 }

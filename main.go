@@ -5,7 +5,7 @@ import (
 	//"fmt"
 
 	//"github.com/mmorales/goprojects/teclado"
-	"github.com/mmorales/goprojects/iterationes"
+	"github.com/mmorales/goprojects/iteraciones"
 	//"runtime"
 	//"github.com/mmorales/goprojects/variables"
 )
@@ -34,6 +34,6 @@ func main() {
 
 	//fmt.Println(ejercicios.Ejercicio1("a"))
 	//teclado.IngresoNumeros()
-	iterationes.Iterar()
+	iteraciones.Iterar()
 
 }
