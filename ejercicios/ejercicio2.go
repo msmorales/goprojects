@@ -21,7 +21,11 @@ func TablaDeMultiplicar() {
 		// Validar si hay un error
 		if err != nil {
 			// Mostrar mensaje de error
-			panic("El dato ingresado es incorrecto" + err.Error())
+			continue
+			//panic("El dato ingresado es incorrecto" + err.Error())
+		}
+		else{
+			break
 		}
 	}
 
