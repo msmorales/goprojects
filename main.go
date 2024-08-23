@@ -3,9 +3,10 @@ package main
 import ( //"fmt"
 	//"fmt"
 	//"github.com/mmorales/goprojects/teclado"
-	"github.com/mmorales/goprojects/ejercicios"
+	//"github.com/mmorales/goprojects/ejercicios"
 	//"runtime"
 	//"github.com/mmorales/goprojects/variables"
+	"github.com/mmorales/goprojects/files"
 )
 
 func main() {
@@ -34,6 +35,8 @@ func main() {
 	//teclado.IngresoNumeros()
 	//iteraciones.Iterar()
 
-	ejercicios.TablaDeMultiplicar()
+	//ejercicios.TablaDeMultiplicar()
+
+	files.GrabarTabla()
 
 }
